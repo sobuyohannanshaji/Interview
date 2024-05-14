@@ -16,7 +16,7 @@
         <input type="file" name="image"  class="form-control mt-2" accept="image/*" >
         <input type="text" name="username" placeholder="Enter Username"  class="form-control mt-2" required>
         <input type="password" name="password" placeholder="Enter Password"  class="form-control mt-2" required>
-        <input type="submit" name="submit"  class="form-control mt-2 btn btn-primary">
+        <input type="submit" name="submit"  class="form-control mt-2 btn btn-primary bt">
         <p class="error text-danger"></p>
         
     </form>
