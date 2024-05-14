@@ -5,6 +5,7 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
+$routes->GET('/','Guest::index');
 $routes->GET('index','Guest::index');
 $routes->GET('login','Home::index');
 $routes->GET('signup','Home::signup');
