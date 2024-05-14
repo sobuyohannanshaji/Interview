@@ -13,8 +13,9 @@
 
 		<div class="row mt-5">
 		<?php if($products):?>
-		<div class="col-md-2">
+		
 			<?php foreach($products as $pro):?>
+		<div class="col-md-2">
 			<div class="card" style="width: 18rem;">
 				<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="min-height :200px;">
 					<div class="carousel-inner">
