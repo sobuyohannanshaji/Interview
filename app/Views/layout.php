@@ -29,7 +29,7 @@
 <script type="text/javascript" src="<?= base_url('assets/js/popper.min.js')?>"></script>
 <script type="text/javascript" src="<?= base_url('assets/js/jquery.js')?>"></script>
 <script>
-	$('input[name="username"]').keyup(function(){
+	$('.iusername').keyup(function(){
 		var s = $(this).val();
 		$.ajax({
 				type: "POST",
@@ -37,10 +37,10 @@
 				data: { 'un' : s},
 				success: function (response) {
 					if(response == 1){
-						$('input[type="submit"]').hide();
+						$('.bt').hide();
 						$('.error').html('The username already in use');
 					}else if(response == 0){
-						$('input[type="submit"]').show();
+						$('.bt').show();
 						$('.error').html('');
 					}
 					
